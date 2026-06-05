@@ -6,6 +6,10 @@ from tensorflow.keras.datasets import imdb
 from tensorflow.keras.models import load_model
 import streamlit as st
 
+import os
+
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
+
 ## Load trained model
 
 model = load_model('/content/drive/MyDrive/DEEP LEARNING NLP/SimpleRNN/simple_rnn_model_imdb.h5')
