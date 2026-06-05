@@ -12,7 +12,7 @@ os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
 
 ## Load trained model
 
-model = load_model('/content/drive/MyDrive/DEEP LEARNING NLP/SimpleRNN/simple_rnn_model_imdb.h5')
+model = load_model('simple_rnn_model_imdb.h5')
 
 # Compile Model
 
